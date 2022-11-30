@@ -1,8 +1,8 @@
 *{
 	padding: 0;
 	margin: 0;
-	background-color: black;
-	color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	text-align: center;
 }
 
@@ -12,12 +12,10 @@ html.body{
 
 .menu{/*Definindo funções para o menu*/
 	text-align: left;
-	margin-left: 10px;
-	position: sticky;/*Travar o menu ao rolar o site para baixo*/
-	top: 0px;/*Travar o menu ao rolar o site para baixo*/
+	top: 0;/*Travar o menu ao rolar o site para baixo*/
 	width: 100%;
-	margin-top: 5px;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
+	position: fixed;/*Travar o menu ao rolar o site para baixo*/
 }
 
 .am{/*Definindo estilo para os atributos A que representa os links do meu menu*/
@@ -33,18 +31,20 @@ html.body{
 	text-align: center;
 	margin: 0 40px;
 	font-size: 17px;
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	padding: 5px;
 	display: inline-block;
 }
 
 .am a:hover{
-	background-color: rgba(240, 248, 255, 1.0);
-	color: black;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 .menu img{
+	margin-top: 2px;
+	margin-left: 5px;
 	display: inline-block;
 	width: 80px;
 	height: 60px;
@@ -52,7 +52,7 @@ html.body{
 }
 
 .introducao{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .introducao img{
@@ -86,13 +86,123 @@ html.body{
 	margin-top: 10px;
 	width: 250px;
 	height: 30px;
-	background-color: rgb(79, 79, 79);
-	color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	border-radius: 20px;
+	border-width: 1px;
 }
 
 .itntxt button:hover{/*Estilizando o passe do mouse no elemento botão*/
 	cursor: pointer;/*Mudar o cursor ao passar o mouse por cima do elemento*/
-	background-color: white;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.m h1{
+	color:rgb(82, 82, 82);
+}
+
+.projeto2{
+	width: 100%;
+}
+
+.txtproj2{
+	margin-right: 8px;
+	width: 400px;
+	vertical-align: top;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+.projeto2 img{
+	display: inline-block;
+	margin-top: 14px;
+	width:500px;
+	height: 330px;
+}
+
+.txtproj2 button{
+	width: 250px;
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	margin-top: 8px;
+	border-width: 1px;
+}
+
+.txtproj2 button:hover{
+	cursor: pointer;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.txtproj2 p{
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+.servico{
+	width: 100%;
+	text-align: center;
+}
+
+.banner1, .banner2, .banner3{
+	border: solid;
+	border-width: 1px;
+}
+
+.banner1, .banner1 h1, .banner1 p{/*Blog*/
+	text-align: center;
+	vertical-align: top;
+	margin-top: 10px;
+	display: inline-block;
+	width: 380px;
+	margin-right: 15px;
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.banner2, .banner2 h1, .banner2 p{/*Tela de login*/
+	margin-top: 10px;
+	display: inline-block;
+	width: 380px;
+	margin-right: 15px;
+	background-color: rgb(255, 255, 255);
+}
+
+.banner3, .banner3 h1, .banner3 p{/*Ecommerce*/
+	background-color: rgb(255, 255, 255);
+	vertical-align: top;
+	margin-top: 10px;
+	display: inline-block;
+	width: 380px;
+}
+
+.banner2 h1, .banner1 h1, .banner3 h1{
+	font-size: 21px;
+}
+
+.banner1 button, .banner2 button, .banner3 button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	background-color: rgb(255, 255, 255);
 	color: black;
+}
+
+.banner1 button:hover, .banner2 button:hover, .banner3 button:hover{
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.es1, .es2, .es3,{
+	color: black;
+}
+
+.es1{
+	margin-top: 50px;
 }
