@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+html.body{
+	height: 100%;
+}
+
+.menu{/*Definindo funções para o menu*/
+	text-align: left;
+	margin-left: 10px;
+	position: sticky;/*Travar o menu ao rolar o site para baixo*/
+	top: 0px;/*Travar o menu ao rolar o site para baixo*/
+	width: 100%;
+	margin-top: 5px;
+	background-color: black;
+}
+
+.am{/*Definindo estilo para os atributos A que representa os links do meu menu*/
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	margin-left: 350px;
+}
+
+.am a{/*Definindo configurações para nosso componente A*/
+	vertical-align: top;
+	margin-right: 50px;
+	text-align: center;
+	margin: 0 40px;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	display: inline-block;
+}
+
+.am a:hover{
+	background-color: rgba(240, 248, 255, 1.0);
+	color: black;
+}
+
+.menu img{
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+
+}
+
+.introducao{
+	margin-top: 20px;
+}
+
+.introducao img{
+	width: 500px;
+	height: 350px;
+	display: inline-block;
+}
+
+.itntxt{
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 90px;
+	text-align: center;
+	width: 400px;
+	display: inline-block;
+}
+
+.itntxt h1{/*Definindo atributos para o elemento título*/
+	display: inline-block;
+}
+
+.itntxt p{/*Definindo atributos para o elemento Paragrafo*/
+	font-size: 16px;
+	width: 300px;
+	margin-top: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.itntxt button{/*Atributos elemento botão*/
+	margin-top: 10px;
+	width: 250px;
+	height: 30px;
+	background-color: rgb(79, 79, 79);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+}
+
+.itntxt button:hover{/*Estilizando o passe do mouse no elemento botão*/
+	cursor: pointer;/*Mudar o cursor ao passar o mouse por cima do elemento*/
+	background-color: white;
+	color: black;
+}
