@@ -21,8 +21,8 @@ html.body{
 .am{/*Definindo estilo para os atributos A que representa os links do meu menu*/
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 15px;
-	margin-left: 350px;
+	margin-top: 18px;
+	margin-left: 330px;
 }
 
 .am a{/*Definindo configurações para nosso componente A*/
@@ -38,8 +38,9 @@ html.body{
 }
 
 .am a:hover{
-	background-color: rgb(0, 0, 0);
-	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-decoration-color: rgb(138, 138, 138);
+	text-decoration-style: 2px;
 }
 
 .menu img{
@@ -146,7 +147,7 @@ html.body{
 	text-align: center;
 }
 
-.banner1, .banner2, .banner3{
+.banner1, .banner2, .banner3{/*banner*/
 	border: solid;
 	border-width: 1px;
 }
@@ -182,7 +183,7 @@ html.body{
 	font-size: 21px;
 }
 
-.banner1 button, .banner2 button, .banner3 button{
+.banner1 button, .banner2 button, .banner3 button{/*Definindo funções para o botão*/
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 220px;
@@ -194,15 +195,15 @@ html.body{
 	color: black;
 }
 
-.banner1 button:hover, .banner2 button:hover, .banner3 button:hover{
+.banner1 button:hover, .banner2 button:hover, .banner3 button:hover{/*Função ao passar o mouse por cima do elemento*/
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
 }
 
-.es1, .es2, .es3,{
+.es1, .es2, .es3,{/*Espaçamento entre as divs*/
 	color: black;
 }
 
-.es1{
+.es1{/*Espaçamento entre as divs*/
 	margin-top: 50px;
 }
