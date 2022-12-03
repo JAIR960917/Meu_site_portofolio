@@ -40,7 +40,6 @@ html.body{
 .am a:hover{
 	text-decoration: underline;
 	text-decoration-color: rgb(138, 138, 138);
-	text-decoration-style: 2px;
 }
 
 .menu img{
@@ -65,7 +64,7 @@ html.body{
 .itntxt{
 	vertical-align: top;
 	margin-left: 20px;
-	margin-top: 90px;
+	margin-top: 60px;
 	text-align: center;
 	width: 400px;
 	display: inline-block;
@@ -76,9 +75,9 @@ html.body{
 }
 
 .itntxt p{/*Definindo atributos para o elemento Paragrafo*/
-	font-size: 16px;
+	font-size: 19px;
 	width: 300px;
-	margin-top: 10px;
+	margin-top: 5px;
 	vertical-align: top;
 	display: inline-block;
 }
@@ -99,10 +98,6 @@ html.body{
 	color: rgb(255, 255, 255);
 }
 
-.m h1{
-	color:rgb(82, 82, 82);
-}
-
 .projeto2{
 	width: 100%;
 }
@@ -111,7 +106,7 @@ html.body{
 	margin-right: 8px;
 	width: 400px;
 	vertical-align: top;
-	margin-top: 80px;
+	margin-top: 65px;
 	display: inline-block;
 }
 
@@ -139,7 +134,7 @@ html.body{
 
 .txtproj2 p{
 	margin-top: 8px;
-	font-size: 16px;
+	font-size: 19px;
 }
 
 .servico{
@@ -183,6 +178,10 @@ html.body{
 	font-size: 21px;
 }
 
+.banner2 p, .banner1 p, .banner3 p{
+	font-size: 18px;
+}
+
 .banner1 button, .banner2 button, .banner3 button{/*Definindo funções para o botão*/
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -207,3 +206,4 @@ html.body{
 .es1{/*Espaçamento entre as divs*/
 	margin-top: 50px;
 }
+
